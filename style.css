@@ -1,0 +1,60 @@
+html {
+    background-color: #121520;
+}
+
+img#logo{
+    width: 261px;
+    height: 49px;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 25px;
+    position:relative;
+    top: 15px;
+}
+
+input#search{
+    width: 525px;
+    height: 40px;
+    font-size: 25px;
+    position:relative;
+    left: 400px;
+    border: 10px;
+    border-style: double;
+    border-color: #121520;
+}
+
+iframe{
+    border-style: solid;
+}
+
+iframe#two, iframe#three{
+    position:relative;
+}
+
+div.videos{
+    position:relative;
+    top: 150px;
+    left: 100px;
+    border-style: solid;
+    width:1688px;    
+}
+
+button.tablinks{
+    font-size: 45px;
+    border-radius: 10px;
+    background-color: #434f7e;
+}
+
+div.tab{
+    position:relative;
+    left: 715px;
+    top: 50px;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s;
+  }
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
